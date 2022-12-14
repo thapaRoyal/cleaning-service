@@ -1,0 +1,63 @@
+/* #fonts */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,800;1,700;1,800&family=Poppins:wght@300;400;500;600;700&display=swap');
+
+/* #variables */
+:root {
+  --hue: 200;
+  --saturation: 70%;
+  --lightness: 55%;
+  --main-color: hsl(var(--hue), var(--saturation), var(--lightness));
+
+  /* text colors */
+  --text-white: hsl(0, 0%, 100%);
+  --text-light-gray: hsl(0, 0%, 96%);
+  --text-x-dark-gray: hsl(0, 0%, 20%);
+
+  /* bg colors */
+  --body-bg-color: hsl(var(--hue), 60%, 94%);
+  --bg-color: hsl(var(--hue), 60%, 96%);
+  --bg-white: hsl(0, 0%, 100%);
+
+  /* border color */
+  --border-color: hsl(var(--hue), 48%, 80%);
+
+  /* shadow */
+  --shadow: 0 0 10px hsla(var(--hue), 57%, 63%, 0.3);
+  --focus-shadow: 0 0 10px hsla(var(--hue), 57%, 63%, 0.6);
+
+  /* font size */
+  --fs-4xl: 50px;
+  --fs-3xl: 35px;
+  --fs-2xl: 26px;
+  --fs-xl: 20px;
+  --fs-lg: 18px;
+  --fs-md: 16px;
+  --fs-sm: 14px;
+}
+
+/* #base */
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+::before,
+::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+  font-size: var(--fs-md);
+  line-height: 1.5;
+  color: var(--text-dark-gray);
+  background-color: var(--body-bg-color);
+  --webkit-text-size-adjust: 100%;
+  --webkit-tap-highlight-color: transparent;
+}
