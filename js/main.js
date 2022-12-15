@@ -1,5 +1,16 @@
-// header bg reveal
+// AOS
+window.addEventListener('load', () => {
+  const preloader = document.querySelector('.js-preloader');
+  preloader.classList.add('fade-out');
 
+  setTimeout(() => {
+    preloader.style.display = 'none';
+  }, 1000);
+  // animate on scroll
+  AOS.init();
+});
+
+// header bg reveal
 const headerBg = () => {
   const header = document.querySelector('.js-header');
 

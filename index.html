@@ -10,19 +10,28 @@
     <link type="text/css" rel="stylesheet" href="css/style.css" />
   </head>
   <body>
+    <!-- preloader start -->
+    <div class="preloader js-preloader">
+      <div></div>
+    </div>
+    <!-- preloader end -->
     <!-- page wrapper start -->
     <div class="page-wrapper">
       <!-- header start -->
       <div class="header js-header">
         <div class="container">
-          <div class="logo">
+          <div class="logo" data-aos="fade-down" data-aos-duration="1000">
             <a href="#">safai <span>cleaning service</span></a>
           </div>
-          <button class="nav-toggler js-nav-toggler">
+          <button
+            class="nav-toggler js-nav-toggler"
+            data-aos="fade-down"
+            data-aos-duration="1000"
+          >
             <span></span>
           </button>
           <nav class="nav js-nav">
-            <ul>
+            <ul data-aos="fade-down" data-aos-duration="1000">
               <li><a href="#home">home</a></li>
               <li><a href="#about">about</a></li>
               <li><a href="#services">services</a></li>
@@ -33,7 +42,6 @@
           </nav>
         </div>
       </div>
-
       <!-- header end -->
 
       <!-- home section start -->
@@ -41,22 +49,42 @@
         <div class="container">
           <div class="grid">
             <div class="home-text">
-              <h1>need cleaning services ?</h1>
-              <p>
+              <h1 data-aos="fade-up" data-aos-duration="1000">
+                need cleaning services ?
+              </h1>
+              <p
+                data-aos="fade-up"
+                data-aos-duration="1000"
+                data-aos-delay="150"
+              >
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima
                 placeat dignissimos nulla vel numquam consequuntur perferendis
                 in ducimus fugiat fuga accusamus hic quam itaque quibusdam quo,
                 earum blanditiis ea iusto?
               </p>
-              <div class="btn-wrap">
+              <div
+                class="btn-wrap"
+                data-aos="fade-up"
+                data-aos-duration="1000"
+                data-aos-delay="300"
+              >
                 <a href="#about" class="btn">Know more</a>
               </div>
             </div>
             <div class="home-img">
-              <div class="circle-wrap">
+              <div
+                class="circle-wrap"
+                data-aos="fade-right"
+                data-aos-duration="1000"
+              >
                 <div class="circle"></div>
               </div>
-              <img src="img/home-img.png" alt="Image" />
+              <img
+                src="img/home-img.png"
+                alt="Image"
+                data-aos="fade-left"
+                data-aos-duration="1000"
+              />
             </div>
           </div>
         </div>
@@ -68,7 +96,7 @@
         <div class="container">
           <div class="grid">
             <div class="about-img">
-              <div class="img-box">
+              <div class="img-box" data-aos="zoom-in" data-aos-duration="1000">
                 <img src="img/about-img.png" alt="img" />
                 <div class="box box-1">
                   <span>7.9k</span>
@@ -78,15 +106,23 @@
             </div>
             <div class="about-text">
               <div class="section-title">
-                <span class="title">about us</span>
-                <h2 class="sub-title">We are cleaning since 2010</h2>
+                <span class="title" data-aos="fade-up" data-aos-duration="600"
+                  >about us</span
+                >
+                <h2
+                  class="sub-title"
+                  data-aos="fade-up"
+                  data-aos-duration="600"
+                >
+                  We are cleaning since 2010
+                </h2>
               </div>
-              <p>
+              <p data-aos="fade-up" data-aos-duration="600">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                 Architecto, quos aliquam pariatur voluptates quam dolorem dolor
                 doloribus ipsa non hic!
               </p>
-              <p>
+              <p data-aos="fade-up" data-aos-duration="600">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro
                 nisi tempore aspernatur impedit error, cumque necessitatibus
                 minus expedita quasi repudiandae.
@@ -101,12 +137,20 @@
       <section class="services section-padding" id="services">
         <div class="container">
           <div class="section-title">
-            <span class="title">services</span>
-            <h2 class="sub-title">what we do</h2>
+            <span class="title" data-aos="fade-up" data-aos-duration="600"
+              >services</span
+            >
+            <h2 class="sub-title" data-aos="fade-up" data-aos-duration="600">
+              what we do
+            </h2>
           </div>
           <div class="grid">
             <!-- services item start -->
-            <div class="services-item">
+            <div
+              class="services-item"
+              data-aos="fade-up"
+              data-aos-duration="600"
+            >
               <div class="img-box">
                 <img src="/img/service/house.jpg" alt="" />
               </div>
@@ -114,14 +158,24 @@
             </div>
             <!-- services item end -->
             <!-- services item start -->
-            <div class="services-item">
+            <div
+              class="services-item"
+              data-aos="fade-up"
+              data-aos-duration="600"
+              data-aos-delay="100"
+            >
               <div class="img-box">
                 <img src="/img/service/window.jpg" alt="" />
               </div>
               <h3>window cleaning</h3>
             </div>
             <!-- services item end -->
-            <div class="services-item">
+            <div
+              class="services-item"
+              data-aos="fade-up"
+              data-aos-duration="600"
+              data-aos-delay="200"
+            >
               <div class="img-box">
                 <img src="/img/service/bathroom.jpg" alt="" />
               </div>
@@ -129,7 +183,12 @@
             </div>
             <!-- services item end -->
             <!-- services item end -->
-            <div class="services-item">
+            <div
+              class="services-item"
+              data-aos="fade-up"
+              data-aos-duration="600"
+              data-aos-delay="300"
+            >
               <div class="img-box">
                 <img src="/img/service/furniture.png" alt="" />
               </div>
@@ -145,12 +204,20 @@
       <section class="pricing section-padding" id="pricing">
         <div class="container">
           <div class="section-title">
-            <span class="title">pricing</span>
-            <h2 class="sub-title">our pricing plans</h2>
+            <span class="title" data-aos="fade-up" data-aos-duration="600"
+              >pricing</span
+            >
+            <h2 class="sub-title" data-aos="fade-up" data-aos-duration="600">
+              our pricing plans
+            </h2>
           </div>
           <div class="grid">
             <!-- basic plan start -->
-            <div class="pricing-item">
+            <div
+              class="pricing-item"
+              data-aos="fade-up"
+              data-aos-duration="1000"
+            >
               <div class="pricing-header">
                 <h3>basic</h3>
                 <div class="price"><span>$299</span> monthly</div>
@@ -170,7 +237,12 @@
             </div>
             <!-- basic plan end -->
             <!-- standard plan start -->
-            <div class="pricing-item">
+            <div
+              class="pricing-item"
+              data-aos="fade-up"
+              data-aos-duration="1000"
+              data-aos-delay="100"
+            >
               <div class="pricing-header">
                 <h3>standard</h3>
                 <div class="price"><span>$499</span> monthly</div>
@@ -190,7 +262,12 @@
             </div>
             <!--  standard plan end -->
             <!-- premium plan start -->
-            <div class="pricing-item">
+            <div
+              class="pricing-item"
+              data-aos="fade-up"
+              data-aos-duration="1000"
+              data-aos-delay="200"
+            >
               <div class="pricing-header">
                 <h3>premium</h3>
                 <div class="price"><span>$999</span> monthly</div>
@@ -218,12 +295,21 @@
       <section class="team section-padding" id="team">
         <div class="container">
           <div class="section-title">
-            <span class="title">team</span>
-            <h2 class="sub-title">meet our team</h2>
+            <span class="title" data-aos="fade-up" data-aos-duration="600"
+              >team</span
+            >
+            <h2 class="sub-title" data-aos="fade-up" data-aos-duration="600">
+              meet our team
+            </h2>
           </div>
           <div class="grid">
             <!-- team item start -->
-            <div class="team-item">
+            <div
+              class="team-item"
+              data-aos="fade-up"
+              data-aos-duration="1000"
+              data-aos-delay="100"
+            >
               <div class="img-box">
                 <img src="/img/team/1.png" alt="img" />
               </div>
@@ -234,7 +320,12 @@
             </div>
             <!-- team item end -->
             <!-- team item start -->
-            <div class="team-item">
+            <div
+              class="team-item"
+              data-aos="fade-up"
+              data-aos-duration="1000"
+              data-aos-delay="200"
+            >
               <div class="img-box">
                 <img src="/img/team/2.png" alt="img" />
               </div>
@@ -245,7 +336,12 @@
             </div>
             <!-- team item end -->
             <!-- team item start -->
-            <div class="team-item">
+            <div
+              class="team-item"
+              data-aos="fade-up"
+              data-aos-duration="1000"
+              data-aos-delay="300"
+            >
               <div class="img-box">
                 <img src="/img/team/3.png" alt="img" />
               </div>
@@ -264,28 +360,48 @@
       <section class="contact section-padding" id="contact">
         <div class="container">
           <div class="section-title">
-            <span class="title">contact us</span>
-            <h2 class="sub-title">have any questions ?</h2>
+            <span class="title" data-aos="fade-up" data-aos-duration="600"
+              >contact us</span
+            >
+            <h2 class="sub-title" data-aos="fade-up" data-aos-duration="600">
+              have any questions ?
+            </h2>
           </div>
           <div class="grid contact-grid">
             <div class="contact-info">
-              <div class="contact-info-item">
+              <div
+                class="contact-info-item"
+                data-aos="fade-up"
+                data-aos-duration="600"
+              >
                 <i class="fas fa-map-marker-alt"></i>
                 <h3>Address</h3>
                 <p>Godawari-1, Lalitpur, Bagmati, Nepal</p>
               </div>
-              <div class="contact-info-item">
+              <div
+                class="contact-info-item"
+                data-aos="fade-up"
+                data-aos-duration="600"
+              >
                 <i class="fas fa-phone"></i>
                 <h3>Call Us</h3>
                 <p>+977 9861 123 ***</p>
               </div>
-              <div class="contact-info-item">
+              <div
+                class="contact-info-item"
+                data-aos="fade-up"
+                data-aos-duration="600"
+              >
                 <i class="fas fa-envelope"></i>
                 <h3>Email Us</h3>
                 <p>info@gmail.com</p>
               </div>
             </div>
-            <div class="contact-form">
+            <div
+              class="contact-form"
+              data-aos="fade-up"
+              data-aos-duration="600"
+            >
               <form>
                 <div class="input-box">
                   <input
@@ -318,9 +434,7 @@
                     required
                   ></textarea>
                 </div>
-                <div class="btn-wrap">
-                  <button type="submit" class="btn">Send Message</button>
-                </div>
+                <button type="submit" class="btn">Send Message</button>
               </form>
             </div>
           </div>
